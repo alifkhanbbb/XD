@@ -36,7 +36,7 @@ def _____mrpoco_____():
 logo = f'''\n         
 \x1b[1;91m▒█▀▀▀ ▒█▀▀█ 　 ▒█░▄▀ ▀█▀ ▒█▄░▒█ ▒█▀▀█ 
 \x1b[1;92m▒█▀▀▀ ▒█▀▀▄ 　 ▒█▀▄░ ▒█░ ▒█▒█▒█ ▒█░▄▄ 
-\x1b[1;34m▒█░░░ ▒█▄▄█ 　 ▒█░▒█ ▄█▄ ▒█░░▀█ ▒█▄▄█\n{G}{47*'-'}\n{xd} FB KING : XIXEMON \n{xd} TOOL : FILE CLONING\n{G}{47*'-'}'''
+\x1b[1;34m▒█░░░ ▒█▄▄█ 　 ▒█░▒█ ▄█▄ ▒█░░▀█ ▒█▄▄█\n{G}{47*'-'}\n{G} FB KING : XIXEMON \n{G} TOOL : FILE CLONING\n{G}{47*'-'}'''
 #-----------------------[ MAIN MENU ]-----------------------#
 def mrpoco():
 	os.system('xdg-open https://t.me/MR_POCO_143')
