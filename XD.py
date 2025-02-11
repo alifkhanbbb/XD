@@ -40,7 +40,7 @@ logo = f'''\n
 #-----------------------[ MAIN MENU ]-----------------------#
 def mrpoco():
 	os.system('xdg-open https://t.me/MR_POCO_143')
-	clear();print(f'{R1} START FILE CLONING ');print(f'{R0} EXIT FILE CLONING ');linex();mr=input(f'{xdx} SELECT : ')
+	clear();print(f'\x1b[1;94m{xd1} START FILE CLONING ');print(f'\x1b[1;94m{xd0} EXIT FILE CLONING ');linex();mr=input(f'{xdx} SELECT : ')
 	if mr in ["1"]:__________filex__________()
 	elif mr in ["0"]:exit()
 	else:linex();print(f'{xd} OPTION NOT FOUND ');linex();time.sleep(1);print(f"{xd} TRY AGAIN ");time.sleep(1);mrpoco()
