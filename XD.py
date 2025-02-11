@@ -36,7 +36,7 @@ def _____mrpoco_____():
 logo = f'''\n         
 \x1b[1;91m▒█▀▀▀ ▒█▀▀█ 　 ▒█░▄▀ ▀█▀ ▒█▄░▒█ ▒█▀▀█ 
 \x1b[1;92m▒█▀▀▀ ▒█▀▀▄ 　 ▒█▀▄░ ▒█░ ▒█▒█▒█ ▒█░▄▄ 
-\x1b[1;34m▒█░░░ ▒█▄▄█ 　 ▒█░▒█ ▄█▄ ▒█░░▀█ ▒█▄▄█\n{W}{47*'-'}\n{xd} FB KING : XIXEMON \n{xd} TOOL : FILE CLONING\n{W}{47*'-'}'''
+\x1b[1;34m▒█░░░ ▒█▄▄█ 　 ▒█░▒█ ▄█▄ ▒█░░▀█ ▒█▄▄█\n{G}{47*'-'}\n{xd} FB KING : XIXEMON \n{xd} TOOL : FILE CLONING\n{G}{47*'-'}'''
 #-----------------------[ MAIN MENU ]-----------------------#
 def mrpoco():
 	os.system('xdg-open https://t.me/MR_POCO_143')
@@ -62,8 +62,8 @@ def __________filex__________():
 		plist.append(input(f'{xd} ENTER PASSWORD {W}[{G}{i+1}{W}] : '))
 	with tred(max_workers=30) as __________mrpoco__________:
 		clear();__________totaluid__________ = str(len(fo))
-		print(f'{xd} TOTAL ACCOUNTS :{G} {__________totaluid__________} ')
-		print(f'{xd} IF NO RESULT ON|OFF AIRPLANE MODE');linex()
+		print(f'{G} TOTAL ACCOUNTS :{R} {__________totaluid__________} ')
+		print(f'{G} IF NO RESULT ON|OFF AIRPLANE MODE');linex()
 		for user in fo:
 			ids,names = user.split('|')
 			passlist = plist
